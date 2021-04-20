@@ -1,0 +1,96 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #2C2F33;
+  color: white;
+}
+
+.header h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.presentano h2 {
+  text-align: center;
+}
+
+.presentano .items {
+  text-align: center;
+}
+
+.items p {
+  background: RGBA(153, 170, 181, 0.5);
+  padding: 10px 10px;
+  border-radius: 10px
+}
+
+.sections {
+  text-align: center;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.img img {
+  width: 350px;
+}
+
+.arrow-down {
+  margin-left: 135px;
+}
+
+.respcell .text {
+  margin-left: 70px;
+}
+
+.elementi-cloroplasti {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cellule-vegetali-pianta h2, .mitocondri h2 {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.mitocondri h4 {
+  text-align: center;
+}
+
+.mitocondri-sections {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pianta-head-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pianta-head-block, .pianta-block {
+  max-width: 400px;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+}
+
+.divide-arrows {
+  display: none;
+}
+
+.cloroplasti-header {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

@@ -4,7 +4,7 @@
     <title>La Cellula Eucariotica Vegetale</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="desktop.css" id="css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   </head>
@@ -140,5 +140,23 @@
       </div>
     </div>
     <div style="margin-bottom:50px;"></div>
+    <script type="text/javascript">
+      var mode = "desktop"
+      function checkSize() {
+        if (window.innerWidth < window.innerHeight) {
+          if (mode === "desktop") {
+            document.getElementById("css").href = "mobile.css";
+            mode = "mobile";
+          };
+        } else if (window.innerWidth > window.innerHeight) {
+          if (mode === "mobile") {
+            document.getElementById("css").href = "desktop.css";
+            mode = "desktop";
+          };
+        };
+      };
+      window.onresize = checkSize;
+      window.onload = checkSize;
+    </script>
   </body>
 </html>
